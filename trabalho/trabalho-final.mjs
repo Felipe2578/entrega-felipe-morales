@@ -6,7 +6,7 @@ import {
   calcularConsumoDeRacao,
   decidirTipoDeAtividadePorPorte,
   buscarDadoAsync
-} from './trabalho.mjs';
+} from '../trabalho.mjs';
 
 describe('Testes da disciplina - fundamentos JS', () => {
 
