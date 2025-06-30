@@ -40,11 +40,11 @@ function decidirTipoDeAtividadePorPorte(porte) {
 
 }
 
- async function buscarDadoAsync() {
+async function buscarDadoAsync() {
     return 'Pipoca'
 }
 
-export {
+module.exports = {
     geradorDeTagsDeIdentificacao,
     verificarSePodeSerAdotado,
     calcularConsumoDeRacao,
